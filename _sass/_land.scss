@@ -1,7 +1,40 @@
 #land{
   background-image: url('../images/lotr.jpg');
+  width:100%;
+  height:100vh;
+  background-size: 100% auto;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-color: #020304;
+  position: relative;
+  font-family: 'UnifrakturCook', cursive;
 
-  h1{
-    color: #FFF;
+  header{
+    border:1px solid transparent;
+    h1{
+      color: #FFF;
+      text-align: center;
+      font-size: 4vw;
+    }
+  }
+  nav{
+    position: absolute;
+    bottom: 5vmin;
+    right: 5vmin;
+
+    a{
+      &, &:hover, &:visited, &:active{
+        color: #fff;
+        text-align: center;
+        font-size: 2vw;
+        margin-left: 2em;
+        display: inline-block;
+        transition: transform .3s ease-in;
+      }
+      &:hover{
+        transform: scale(1.4);
+        color:red;
+      }
+    }
   }
 }
