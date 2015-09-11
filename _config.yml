@@ -1,12 +1,10 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: The Fellowship of the Ring
+email: aryan@iitgn.ac.in
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit dignissimos perspiciatis, asperiores blanditiis vel pariatur maiores neque numquam amet ratione.
 baseurl: "/lotr" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://aryansingh.github.io/lotr/" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
