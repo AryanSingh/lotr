@@ -2,5 +2,14 @@
     h#{$i} {
         font-family: 'UnifrakturCook', cursive;
         font-weight: 400;
+        text-transform: lowercase;
     }    
+}
+body{
+  font-family: $normal-font;
+}
+nav.navbar{
+  font-family: $heading-font;
+  font-weight: 400;
+  text-transform: lowercase;
 }
