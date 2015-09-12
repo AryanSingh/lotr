@@ -2,5 +2,21 @@
     h#{$i} {
         font-family: 'UnifrakturCook', cursive;
         font-weight: 400;
+        text-transform: lowercase;
     }    
+}
+body{
+  font-family: $normal-font;
+}
+.raw{
+  font-family: $default-font;
+}
+nav.navbar{
+  font-family: $heading-font;
+  font-weight: 400;
+  text-transform: lowercase;
+}
+footer{
+  margin: 2em 0 1em;
+  text-align: center;
 }
